@@ -1,13 +1,33 @@
+$bg_color: #1d1d20;
+$primary_color: #7331ff;
+$text_light: #f5f5f4;
+
 Screen {
-    background: #1d1d20;
+    background: $bg_color;
 }
 
-#frame {
-    color: #7331ff
+#frame, #frame2 {
+    color: $primary_color;
 }
 
-#frame2 {
-    color: #7331ff
+#logo {
+    color: $primary_color;
+    height: 100%;
+    width: auto;
+}
+
+#os_text {
+    color: $text_light;
+    text-style: bold;
+    height: 1;
+    width: auto;
+}
+
+#os {
+    color: $primary_color;
+    text-style: bold;
+    height: 1;
+    width: auto;
 }
 
 #top_content {
@@ -16,31 +36,11 @@ Screen {
     width: 100%;
 }
 
-#logo {
-    color: #7331ff;
-    height: 100%;
-    width: auto;
-}
-
 #os_container {
     layout: horizontal;
     height: 1;
     width: auto;
     margin-top: 1;
     margin-right: 2;
-    margin-left: 5;
-}
-
-#os_text {
-    color: #f5f5f4;
-    text-style: bold;
-    height: 1;
-    width: auto;
-}
-
-#os {
-    color: #7331ff;
-    text-style: bold;
-    height: 1;
-    width: auto;
+    margin-left: 2;
 }
