@@ -1,6 +1,7 @@
 $bg_color: #1d1d20;
 $primary_color: #7331ff;
 $text_light: #f5f5f4;
+$error: #ff3139;
 
 Screen {
     background: $bg_color;
@@ -43,4 +44,32 @@ Screen {
     margin-top: 1;
     margin-right: 2;
     margin-left: 2;
+}
+
+#error_models {
+    color: $error;
+    text-style: bold;
+    margin-left: 2;
+    margin-top: 1;
+    
+}
+
+#menu_options {
+    border: none;
+    margin-top: 1;
+    background: transparent;
+    height: auto;
+    width: 45;
+
+}
+
+#menu_options OptionList .OptionList--option {
+    padding: 0 1;
+    color: $text-muted;
+}
+
+#menu_options OptionList .OptionList--option-highlighted {
+    background: $accent;          
+    color: $text; 
+    text-style: bold;             
 }
