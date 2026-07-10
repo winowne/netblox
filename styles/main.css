@@ -1,0 +1,46 @@
+Screen {
+    background: #1d1d20;
+}
+
+#frame {
+    color: #7331ff
+}
+
+#frame2 {
+    color: #7331ff
+}
+
+#top_content {
+    layout: horizontal;
+    height: 7;
+    width: 100%;
+}
+
+#logo {
+    color: #7331ff;
+    height: 100%;
+    width: auto;
+}
+
+#os_container {
+    layout: horizontal;
+    height: 1;
+    width: auto;
+    margin-top: 1;
+    margin-right: 2;
+    margin-left: 5;
+}
+
+#os_text {
+    color: #f5f5f4;
+    text-style: bold;
+    height: 1;
+    width: auto;
+}
+
+#os {
+    color: #7331ff;
+    text-style: bold;
+    height: 1;
+    width: auto;
+}
